@@ -4,7 +4,7 @@ import Navbar from '../Layout/Navbar/Navbar';
 
 const Root = () => {
     return (
-        <div className='max-w-7xl m-auto'>
+        <div className='max-w-7xl m-auto' style={{fontFamily: "Poppins sans-serif"}}>
             <Navbar/>
             <Outlet></Outlet>
         </div>
