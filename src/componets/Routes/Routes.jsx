@@ -5,6 +5,9 @@ import Error from '../Pages/Error/Error'
 import Home from '../Pages/Home/Home';
 import Login from '../Pages/Login/Login';
 import Register from '../Pages/Register/Register';
+import Profile from '../Pages/Profile/Profile';
+import Contact from '../Pages/Contact/Contact';
+import Agent from '../Pages/Agent/Agent';
 
 const routes = createBrowserRouter([
     {
@@ -17,12 +20,24 @@ const routes = createBrowserRouter([
                element: <Home/>
             },
             {
+                path: '/contact',
+                element: <Contact/>
+            },
+            {
                 path: '/login',
                 element: <Login/>
             },
             {
                 path: '/register',
                 element: <Register/>
+            },
+            {
+                path: '/agent',
+                element: <Agent/>
+            },
+            {
+                path: '/profile',
+                element: <Profile/>
             }
         ]
     }
