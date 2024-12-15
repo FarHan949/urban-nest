@@ -1,0 +1,18 @@
+[
+    {
+      "id": 1,
+      "img": "https://example.com/image1.jpg",
+      "description": "A vibrant sunrise over the mountains."
+    },
+    {
+      "id": 2,
+      "img": "https://example.com/image2.jpg",
+      "description": "A serene lake surrounded by lush greenery."
+    },
+    {
+      "id": 3,
+      "img": "https://example.com/image3.jpg",
+      "description": "A bustling cityscape at night with glowing lights."
+    }
+  ]
+  
