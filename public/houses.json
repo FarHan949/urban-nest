@@ -78,8 +78,8 @@
       "facilities": ["living room", "kitchen", "fireplace"]
     },
     {
-      "cover": "",
-      "images": ["","","", "", ""],
+      "cover": "https://i.ibb.co.com/6ssY5bR/cover-7.jpg",
+      "images": ["https://i.ibb.co.com/f14p8JT/274661-UCR-IMG-06-0000.jpg","https://i.ibb.co.com/X7JbGD3/274661-UCR-IMG-05-0000.jpg","https://i.ibb.co.com/WBCD2Qm/274661-UCR-IMG-04-0000.jpg", "https://i.ibb.co.com/XZj6WDK/274661-UCR-IMG-03-0000.jpg", "https://i.ibb.co.com/MBc5yDz/274661-UCR-IMG-02-0000.jpg"],
       "estate_title": "Suburban Rental House",
       "id": "E007",
       "segment_name": "Residential",
@@ -91,8 +91,8 @@
       "facilities": ["living room", "kitchen", "garage"]
     },
     {
-      "cover": "",
-      "images": ["","","", "", ""],
+      "cover": "https://i.ibb.co.com/d0MNVs9/cover-8.jpg",
+      "images": ["https://i.ibb.co.com/pRgnBZk/3728-000230445-IMG-06-0000.jpg","https://i.ibb.co.com/3TShtdq/3728-000230445-IMG-05-0000.jpg","https://i.ibb.co.com/DgcDXZF/3728-000230445-IMG-04-0000.jpg", "https://i.ibb.co.com/85Fmmxx/3728-000230445-IMG-03-0000.jpg", "https://i.ibb.co.com/Qk1VN7H/3728-000230445-IMG-02-0000.jpg"],
       "estate_title": "Downtown Loft",
       "id": "E008",
       "segment_name": "Residential",
@@ -104,8 +104,8 @@
       "facilities": ["living room", "kitchen", "rooftop access"]
     },
     {
-      "cover": "",
-      "images": ["","","", "", ""],
+      "cover": "https://i.ibb.co.com/CJ5m2nW/cover-9.jpg",
+      "images": ["https://i.ibb.co.com/K9wMk01/16023-1109533-IMG-13-0000.jpg","https://i.ibb.co.com/gvSy5Qc/16023-1109533-IMG-05-0001.jpg","https://i.ibb.co.com/HTn85SR/16023-1109533-IMG-04-0000.jpg", "https://i.ibb.co.com/m5cKZHF/16023-1109533-IMG-03-0000.jpg", "https://i.ibb.co.com/dGGzbqH/16023-1109533-IMG-02-0000.jpg"],
       "estate_title": "Luxury Penthouse",
       "id": "E009",
       "segment_name": "Residential",

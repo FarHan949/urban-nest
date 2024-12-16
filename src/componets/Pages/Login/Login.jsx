@@ -22,9 +22,9 @@ const Login = () => {
           </label>
         </div>
         <div className="form-control mt-6">
-          <button className="btn btn-primary">Login</button>
+          <button className="btn bg-LiverChestnut text-white">Login</button>
         </div>
-       <p>Do not a have account ? <Link to='/register' className='text-blue-700 underline cursor-pointer'>Register</Link></p>
+       <p>Do not a have account ? <Link to='/register' className='text-JackoBean underline cursor-pointer'>Register</Link></p>
       </form>
     </div>
 

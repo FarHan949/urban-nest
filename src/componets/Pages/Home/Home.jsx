@@ -1,12 +1,16 @@
-import React from 'react';
+import React from "react";
+import Banner from "../../Layout/Banner/Banner";
+
 
 const Home = () => {
-    
-    return (
-        <div>
-            <h2 className='text-4xl'>This is a home page</h2>
-        </div>
-    );
+
+  return (
+    <div style={{fontFamily: "Poppins sans-serif"}}>
+      <div className=" mt-3 p-1 ">
+      <Banner/>
+      </div>
+    </div>
+  );
 };
 
 export default Home;
