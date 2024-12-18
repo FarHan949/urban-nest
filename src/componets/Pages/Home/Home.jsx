@@ -13,36 +13,45 @@ const Home = () => {
    
    { /*Features*/}
 
-      <div className="grid grid-cols-8 mt-20">
-        <div className="col-span-2">
-          <p className="text-4xl font-bold">Our mission is to redefine townhouses for the costumer's</p>
-        </div>
-        <div className="col-span-4">
-        <div className="flex flex-col px-6 py-4 gap-10 text-slate-600">
-           <p>Finderland is one the world's townhouse property agents. Our experience spans the globe.</p>
-           <p>We have been advising on buying, selling and ranting townhouses for over 20 years. Our team of experts is dedicated to providing you with the best possible service.</p>
-        </div>
-        </div>
-        <div className="col-span-2 mt-3">
-                <div className="grid grid-cols-8 gap-2 justify-center items-center">
-                  <div className="col-span-2 ml-20 space-y-3">
-                  <IoCheckmarkCircleOutline className="text-LightTaupe"/>
-                  <IoCheckmarkCircleOutline className="text-LightTaupe"/>
-                  <IoCheckmarkCircleOutline className="text-LightTaupe"/>
-                  <IoCheckmarkCircleOutline className="text-LightTaupe"/>
-                  </div>
-                  <div className="col-span-6 space-y-1">
-                  <p className="text-slate-600">Only the best properties</p>
-                  <p className="text-slate-600">Full feature event app</p>
-                  <p className="text-slate-600">Only the best properties</p>
-                  <p className="text-slate-600">Only the best properties</p>
+   <div className="grid grid-cols-1 md:grid-cols-8 mt-10 md:mt-20 gap-4 px-4 md:px-0">
+  {/* Left Section */}
+  <div className="md:col-span-2 flex flex-col items-center md:items-start">
+    <p className="text-2xl md:text-4xl font-bold text-center md:text-left">
+      Our mission is to redefine townhouses for the customer's
+    </p>
+  </div>
 
-                  </div>
-               
-               </div>    
-          
+  {/* Middle Section */}
+  <div className="md:col-span-4">
+    <div className="flex flex-col px-4 md:px-6 py-4 gap-6 text-slate-600">
+      <p>
+        Finderland is one of the world's townhouse property agents. Our experience spans the globe.
+      </p>
+      <p>
+        We have been advising on buying, selling, and renting townhouses for over 20 years. Our team of experts is dedicated to providing you with the best possible service.
+      </p>
+    </div>
+  </div>
+
+  {/* Right Section */}
+  <div className="md:col-span-2 mt-3 md:mt-0">
+    <div className="space-y-4">
+      {[
+        "Only the best properties",
+        "Full feature app event",
+        "Ultimate customer experience",
+        "24/7 customer support",
+        "Event analytic",
+      ].map((text, index) => (
+        <div key={index} className="flex items-center">
+          <IoCheckmarkCircleOutline className="text-LightTaupe mr-3" />
+          <p className="text-slate-600">{text}</p>
         </div>
-      </div>
+      ))}
+    </div>
+  </div>
+</div>
+
       
     </div>
   );
