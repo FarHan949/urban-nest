@@ -29,7 +29,7 @@ const Banner = () => {
             alt="Townhouse Banner 1"
           />
           <div className="absolute inset-0 flex flex-col items-center justify-center px-4 sm:px-8">
-            <h2 className="text-3xl sm:text-2xl md:text-4xl font-bold text-black text-center">
+            <h2 className="text-3xl sm:text-2xl md:text-4xl font-bold text-gold text-center">
               Welcome to Your Dream Townhouse!
             </h2>
             <p className="text-sm sm:text-lg md:text-xl mt-10 sm:mt-10 text-white bg-black bg-opacity-20 p-4 sm:p-6 rounded-lg shadow-lg text-center">
@@ -52,7 +52,7 @@ const Banner = () => {
             alt="Townhouse Banner 2"
           />
           <div className="absolute inset-0 flex flex-col items-center justify-center px-4 sm:px-8">
-            <h2 className="text-3xl sm:text-2xl md:text-4xl font-bold text-black text-center">
+            <h2 className="text-3xl sm:text-2xl md:text-4xl font-bold text-gold text-center">
               Discover Your Perfect Home!
             </h2>
             <p className="text-sm sm:text-lg md:text-xl mt-10 sm:mt-10 text-white bg-black bg-opacity-20 p-4 sm:p-6 rounded-lg shadow-lg text-center">
@@ -75,7 +75,7 @@ const Banner = () => {
             alt="Townhouse Banner 3"
           />
           <div className="absolute inset-0 flex flex-col items-center justify-center px-4 sm:px-8">
-            <h2 className="text-3xl sm:text-2xl md:text-4xl font-bold text-black text-center">
+            <h2 className="text-3xl sm:text-2xl md:text-4xl font-bold text-gold text-center">
             Find Your Perfect Place to Call Home
             </h2>
             <p className="text-sm sm:text-lg md:text-xl mt-10 sm:mt-10 text-white bg-black bg-opacity-20 p-4 sm:p-6 rounded-lg shadow-lg text-center">
