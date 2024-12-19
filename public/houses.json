@@ -9,6 +9,7 @@
       "price": "$500,000",
       "status": "sale",
       "area": "2500 sq ft",
+      "room": [4,2],
       "location": "123 Maple Street, Springfield",
       "facilities": ["living room", "swimming pool", "kitchen"]
     },
@@ -22,6 +23,7 @@
       "price": "$750,000",
       "status": "sale",
       "area": "1800 sq ft",
+      "room": [5,2],
       "location": "456 Highrise Avenue, Metropolis",
       "facilities": ["living room", "kitchen", "gym"]
     },
@@ -34,6 +36,7 @@
       "description": "A comfortable home with a large backyard, perfect for families.",
       "price": "$400,000",
       "status": "sale",
+      "room": [7,1],
       "area": "2200 sq ft",
       "location": "789 Pine Drive, Pleasantville",
       "facilities": ["living room", "kitchen", "garden"]
@@ -47,6 +50,7 @@
       "description": "A luxurious villa with direct access to the beach and scenic views.",
       "price": "$1,200,000",
       "status": "sale",
+      "room": [4,2],
       "area": "3000 sq ft",
       "location": "101 Ocean View Lane, Seaside",
       "facilities": ["living room", "swimming pool", "kitchen"]
@@ -60,6 +64,7 @@
       "description": "A chic condo located in the heart of the city, close to amenities.",
       "price": "$350,000",
       "status": "sale",
+      "room": [3,1],
       "area": "1200 sq ft",
       "location": "202 Downtown Street, Urbania",
       "facilities": ["living room", "kitchen", "balcony"]
@@ -73,6 +78,7 @@
       "description": "A quaint cottage surrounded by nature, ideal for a peaceful lifestyle.",
       "price": "$275,000",
       "status": "sale",
+      "room": [5,3],
       "area": "1500 sq ft",
       "location": "345 Countryside Road, Harmony",
       "facilities": ["living room", "kitchen", "fireplace"]
@@ -86,6 +92,7 @@
       "description": "A well-maintained rental property in a friendly neighborhood.",
       "price": "$1,800/month",
       "status": "rent",
+      "room": [4,4],
       "area": "2000 sq ft",
       "location": "678 Elm Street, Suburbia",
       "facilities": ["living room", "kitchen", "garage"]
@@ -99,6 +106,7 @@
       "description": "A trendy loft with an open floor plan and industrial design elements.",
       "price": "$2,500/month",
       "status": "rent",
+      "room": [3,2],
       "area": "1400 sq ft",
       "location": "303 Central Avenue, Cityscape",
       "facilities": ["living room", "kitchen", "rooftop access"]
@@ -112,6 +120,7 @@
       "description": "An exclusive penthouse with panoramic views and top-notch facilities.",
       "price": "$1,500,000",
       "status": "sale",
+      "room": [5,4],
       "area": "3200 sq ft",
       "location": "909 Skyline Drive, Skyview",
       "facilities": ["living room", "kitchen", "private pool"]

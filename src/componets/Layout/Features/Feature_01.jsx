@@ -1,5 +1,6 @@
 import React from 'react';
 import { IoCheckmarkCircleOutline } from "react-icons/io5";
+import { FaPlus } from "react-icons/fa"
 
 const Feature_01 = () => {
   return (
@@ -50,13 +51,13 @@ const Feature_01 = () => {
   <div className="mt-10 md:mt-14 grid grid-cols-1 md:grid-cols-9 gap-10 md:gap-3 px-4 md:px-0">
   {/* First Column */}
   <div className="col-span-3 flex px-10 flex-col justify-center items-center gap-4 text-center md:text-left">
-    <p className="text-4xl text-CoyoteBrown font-bold">$10.5M</p>
+    <p className="text-4xl text-CoyoteBrown font-bold">$17.5M</p>
     <p className="text-slate-600 text-sm">OWNED FROM PROPERTY TRANSACTION</p>
   </div>
 
   {/* Second Column */}
   <div className="col-span-3 flex px-10 flex-col justify-center items-center gap-4 text-center md:text-left">
-    <p className="text-4xl text-CoyoteBrown font-bold">$30K+</p>
+    <p className="text-4xl text-CoyoteBrown font-bold flex items-center">30K<FaPlus className='text-lg'/></p>
     <p className="text-slate-600 text-sm">OWNED FROM PROPERTY TRANSACTION</p>
   </div>
 
