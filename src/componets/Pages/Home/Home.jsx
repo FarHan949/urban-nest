@@ -3,22 +3,24 @@ import Banner from "../../Layout/Banner/Banner";
 import Feature_01 from "../../Layout/Features/Feature_01";
 import { Link, useLoaderData } from "react-router-dom";
 import Card from "../../Layout/Card/Card";
+import Feature_02 from "../../Layout/Features/Feature_02";
 
 
 const Home = () => {
 
   const houses = useLoaderData()
-  console.log(houses)
+  // console.log(houses)
 
   return (
-    <div style={{ fontFamily: "Poppins sans-serif" }}>
-      <div className=" mt-3 p-1 ">
+    <div style={{ fontFamily: "Poppins sans-serif" }} className="m-auto">
+      <div className="mt-3 p-1">
         <Banner />
       </div>
 
-      {/*Features*/}
+      {/*Features_01*/}
       <Feature_01/>
 
+      {/*Cards*/}
       <div className="max-w-7xl relative mt-14 md:mt-20 mb-10 pb-10 md:bg-yellow-50 rounded px-5">
         <h1 className="text-3xl md:text-4xl text-left md:py-0">Recent properties</h1>
         <h2 className="absolute right-2 md:right-5 mt-3 text-sm underline cursor-pointer">
@@ -32,8 +34,11 @@ const Home = () => {
         </div>
       </div>
 
+      {/*Features_02*/}
+      <Feature_02/>
     </div>
   );
 };
 
 export default Home;
+
