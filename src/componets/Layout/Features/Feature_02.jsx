@@ -9,7 +9,7 @@ const Feature_02 = () => {
   ];
 
   return (
-    <div className="bg-gray-900 text-white py-8 rounded-lg items-center">
+    <div className="bg-gray-900 text-white py-8 rounded-xl md:rounded-lg items-center">
       <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 text-center">
         {stats.map((stat, index) => (
           <div key={index} className="flex flex-col items-center">
