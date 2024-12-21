@@ -5,7 +5,7 @@ import Footer from '../Layout/Footer/Footer';
 
 const Root = () => {
     return (
-        <div className='w-full m-auto' style={{fontFamily: "Poppins sans-serif"}}>
+        <div style={{fontFamily: "Poppins sans-serif"}}>
             <Navbar/>
             <Outlet></Outlet>
             <Footer></Footer>

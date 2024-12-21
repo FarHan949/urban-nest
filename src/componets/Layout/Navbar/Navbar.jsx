@@ -77,7 +77,7 @@ const Navbar = () => {
 
   return (
     <nav className=" text-white rounded-lg -m-3 bg-gradient-to-r from-LightTaupe to-LiverChestnut">
-      <div className="max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl m-auto px-10 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center lg:h-28 h-20">
           {/* Logo */}
 

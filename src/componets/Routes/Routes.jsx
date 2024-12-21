@@ -38,6 +38,9 @@ const routes = createBrowserRouter([
                 path: '/agent',
                 element: <Agent/>
             },
+            // {
+            //     path: '/',
+            // }
             {
                 path: '/profile',
                 element: <Profile/>

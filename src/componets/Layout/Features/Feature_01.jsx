@@ -4,7 +4,7 @@ import { FaPlus } from "react-icons/fa"
 
 const Feature_01 = () => {
   return (
-    <div className='m-auto'>
+    <div className='m-auto md:ml-10'>
 
     <div className="grid grid-cols-1 md:grid-cols-8 mt-10 md:mt-20 gap-4 px-4 md:px-0 pb-20 md:pb-12 border-b-2">
     {/* Left Section */}

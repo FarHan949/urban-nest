@@ -1,6 +1,6 @@
 import React from 'react';
 
-const PrivateAuth = () => {
+const PrivateRoutes = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const PrivateAuth = () => {
     );
 };
 
-export default PrivateAuth;
+export default PrivateRoutes;

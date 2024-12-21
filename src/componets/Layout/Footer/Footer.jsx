@@ -4,11 +4,15 @@ import { FaFacebook, FaGoogle, FaTwitter, FaLinkedin, FaPinterest } from "react-
 
 const Footer = () => {
     return (
-      <footer className="bg-gray-900 text-white py-10 mt-10 -mb-10">
+      <footer className="bg-gray-900 w-full text-white py-10 mt-10 -mb-10 overflow-hidden">
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 px-5">
           {/* Uniland Real Estate */}
           <div>
-            <h2 className="text-2xl font-semibold mb-7">UNILAND</h2>
+            <h2 style={{
+              fontFamily: "Nunito Sans sans-serif",
+              fontStyle: "italic",
+            }}
+             className="text-2xl font-semibold mb-7 text-CoyoteBrown">Urban Nest</h2>
             <p className="text-gray-400 mb-4">
               Risus commodo congue augue phasellus morbi hymenaeos ante tincidunt
               eu orci dictum bibendum lacus platea primis mi lacinia.

@@ -12,7 +12,7 @@ const Home = () => {
   // console.log(houses)
 
   return (
-    <div style={{ fontFamily: "Poppins sans-serif" }} className="m-auto">
+    <div style={{ fontFamily: "Poppins sans-serif" }} className="m-auto md:max-w-7xl">
       <div className="mt-3 p-1">
         <Banner />
       </div>
