@@ -18,7 +18,7 @@ const Card = ({house}) => {
   <div className="card-body">
     <h2 className="card-title -mt-5 -ml-5 pb-2 text-CoyoteBrown">{price}</h2>
     <h2 className="card-title -mt-5 -ml-5">{estate_title}</h2>
-    <p className="text-sm -ml-28 flex justify-center gap-1">
+    <p className="text-sm -ml-5 items-center flex gap-1">
         <FaLocationDot className='text-CoyoteBrown'/>
         {location}</p>
    
@@ -36,7 +36,7 @@ const Card = ({house}) => {
             {area}
         </p>
       </div>
-      <button className="w-full bg-CoyoteBrown text-white hover:bg-JackoBean rounded-lg py-2">View Details</button>
+      <button className="w-full bg-CoyoteBrown mt-5 text-white hover:bg-JackoBean rounded-lg py-2">View Details</button>
   </div>
 </div>
     );
