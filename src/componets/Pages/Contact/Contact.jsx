@@ -41,8 +41,15 @@ const Contact = () => {
       </div>
         
         {/* {Get in touch with us} */}
-      <div className="col-span-6">
-        <h1>Hello</h1>
+      <div className="col-span-6 sm:mt-16 md:m-0">
+      <h1 className="text-3xl py-5 px-10">Get in Touch</h1>
+      <div className="mx-10">
+          <input className="py-2 pl-5 rounded w-4/5 bg-slate-200 my-2" type="text" placeholder="Your Name" />
+          <input className="py-2 pl-5 rounded w-4/5 bg-slate-200 my-2" type="text" placeholder="E-mail" />
+          <input className="py-2 pl-5 rounded w-4/5 bg-slate-200 my-2" type="text" placeholder="Phone" />
+          <input className="pt-2 pb-20 pl-5 rounded w-4/5 bg-slate-200 my-2" type="text" placeholder="Message" />
+           <button className="bg-CoyoteBrown text-white px-5 py-3 rounded text-sm">SEND MESSAGE</button>
+      </div>
       </div>
     </div>
   );
