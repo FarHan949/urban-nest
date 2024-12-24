@@ -1,14 +1,23 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
+import { AuthContext } from "../../../Provider/AuthProvider";
 
 const Login = () => {
 
+  const {user,login} = useContext(AuthContext)
   
+  const handleLogin = (e) => {
+   e.preventDefault()
+   const form = new FormData(e.currentTarget)
+   const email = form.get('email')
+   const password = form.get('password')
+   console.log(email, password)
+  }
 
   return (
     <div className="md:mx-40 mx-4 flex flex-col md:flex-row justify-between gap-5 md:gap-20 m-auto pt-5">
       <div className="card bg-base-100 w-full max-w-sm mt-5 shrink-0 shadow-2xl">
-        <form className="card-body">
+        <form className="card-body" onSubmit={handleLogin}>
           <div className="form-control">
             <label className="label">
               <span className="label-text">Email</span>
