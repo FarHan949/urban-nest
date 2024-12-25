@@ -8,13 +8,15 @@ import Register from '../Pages/Register/Register';
 import Profile from '../Pages/Profile/Profile';
 import Contact from '../Pages/Contact/Contact';
 import Agent from '../Pages/Agent/Agent';
+import Properties from '../Layout/Properties/properties';
+import PropertiesDetails from '../Pages/PropertiesDetails/PropertiesDetails';
 
 
 
 const routes = createBrowserRouter([
     {
         path: '/',
-        errorElement: <Error></Error>,
+        // errorElement: <Error></Error>,
         element: <Root></Root>,
         children: [
             {
@@ -38,9 +40,16 @@ const routes = createBrowserRouter([
                 path: '/agent',
                 element: <Agent/>
             },
-            // {
-            //     path: '/',
-            // }
+            {
+                path: '/properties',
+                loader: ()=> fetch('/houses.json'),
+                element: <Properties/>
+            },
+            {
+               path: '/properties/:id',
+               loader: ()=> fetch('/houses.json'),
+               element: <PropertiesDetails/>
+            },
             {
                 path: '/profile',
                 element: <Profile/>

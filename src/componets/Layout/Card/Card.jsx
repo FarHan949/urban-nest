@@ -3,12 +3,14 @@ import { FaLocationDot } from 'react-icons/fa6';
 import { FaBed } from "react-icons/fa"
 import { LuBath } from "react-icons/lu"
 import { BiShapeSquare } from "react-icons/bi"
+import { Link } from 'react-router-dom';
 
 const Card = ({house}) => {
 
     const {estate_title, cover, id, price, status, location, area, room} = house;
     
     return (
+       <Link to={`/properties/${id}`}>
         <div className="card bg-base-100 w-96 h-5/6 shadow-xl">
   <figure>
     <img
@@ -39,6 +41,7 @@ const Card = ({house}) => {
       <button className="w-full bg-CoyoteBrown mt-5 text-white hover:bg-JackoBean rounded-lg py-2">View Details</button>
   </div>
 </div>
+  </Link>
     );
 };
 

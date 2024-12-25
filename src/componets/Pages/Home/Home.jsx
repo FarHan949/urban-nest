@@ -24,7 +24,7 @@ const Home = () => {
       <div className="max-w-7xl relative mt-14 md:mt-20 mb-10 pb-10 md:bg-yellow-50 rounded px-5">
         <h1 className="text-3xl md:text-4xl text-left md:py-0">Recent properties</h1>
         <h2 className="absolute right-2 md:right-5 mt-3 text-sm underline cursor-pointer">
-          <Link to='/'>View All Properties</Link></h2>
+          <Link to='/properties'>View All Properties</Link></h2>
         <div className="items-center grid gap-5 grid-cols-1 md:grid-cols-3 mt-12 md:mt-16">
       {
         houses.slice(0,3).map(house => <Card key={house.id}
