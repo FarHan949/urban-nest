@@ -7,10 +7,10 @@ import { GiHomeGarage } from "react-icons/gi";
 
 
 const PropertiesDetails = () => {
+
     const houses = useLoaderData();
     const { id } = useParams();
-  
-    const house = houses.find((house) => house.id === id);
+    const house = houses.find(house => house.id === id);
     const {
         estate_title,
         segment_name,
@@ -44,7 +44,7 @@ const PropertiesDetails = () => {
             className="rounded-t-lg w-full h-64 object-cover sm:h-80 md:h-96 lg:h-[500px]"
           />
           <div className="absolute top-3 right-3 bg-gray-800 text-white px-3 py-1 rounded-lg text-sm">
-            $5000/mo
+            {price}
           </div>
         </div>
   
@@ -96,7 +96,6 @@ const PropertiesDetails = () => {
               <GiHomeGarage className='text-CoyoteBrown'/>
               <p>1 Garage</p>
            </div>
-            
         
             
           </ul>

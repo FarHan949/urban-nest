@@ -38,6 +38,7 @@ const routes = createBrowserRouter([
             },
             {
                 path: '/agent',
+                loader: fetch('/agent.json'),
                 element: <Agent/>
             },
             {

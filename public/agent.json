@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "image": "https://i.ibb.co.com/4ZkDTgD/agent-1.jpg",
+      "phone_number": "+1234567890",
+      "email": "contact1@example.com",
+      "description": "This is a detailed profile focusing on technology advancements, offering in-depth resources and tools for developers to enhance productivity and creativity in their projects."
+    },
+    {
+      "id": 2,
+      "image": "https://i.ibb.co.com/0G9Cgxr/agent-2.jpg",
+      "phone_number": "+1987654321",
+      "email": "contact2@example.com",
+      "description": "Explore a comprehensive collection of educational materials aimed at students and educators, providing modern learning techniques and effective strategies for academic growth."
+    },
+    {
+      "id": 3,
+      "image": "https://i.ibb.co.com/kMHxJ48/agent-3.jpg",
+      "phone_number": "+1122334455",
+      "email": "contact3@example.com",
+      "description": "A specialized hub for creative professionals, featuring portfolios, tools, and resources to inspire artistic innovation and career development across diverse mediums."
+    },
+    {
+      "id": 4,
+      "image": "https://i.ibb.co.com/rbvB4QK/agent-4.jpg",
+      "phone_number": "+1223344556",
+      "email": "contact4@example.com",
+      "description": "Dedicated to promoting health and wellness, this platform provides expert advice, fitness plans, and nutritional guidance for individuals seeking a balanced lifestyle."
+    },
+    {
+      "id": 5,
+      "image": "https://i.ibb.co.com/yp8LDKw/agent-5.jpg",
+      "phone_number": "+1334455667",
+      "email": "contact5@example.com",
+      "description": "An engaging platform tailored for entrepreneurs, offering business strategies, startup advice, and tools for scaling operations effectively in competitive markets."
+    }
+  ]
+  
