@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../../Provider/AuthProvider";
+import { FaGoogle, FaGithub } from "react-icons/fa6";
 
 const Login = () => {
 
@@ -15,7 +16,7 @@ const Login = () => {
   }
 
   return (
-    <div className="md:mx-40 mx-4 flex flex-col md:flex-row justify-between gap-5 md:gap-20 m-auto pt-5">
+    <div className="max-w-5xl m-auto  flex flex-col md:flex-row justify-between gap-5 md:gap-20 m-auto pt-5">
       <div className="card bg-base-100 w-full max-w-sm mt-5 shrink-0 shadow-2xl">
         <form className="card-body" onSubmit={handleLogin}>
           <div className="form-control">
@@ -61,10 +62,18 @@ const Login = () => {
           </p>
         </form>
       </div>
-      <div className="border-2 border-slate-950">
-        <h1>google</h1>
+      <div className="m-auto md:mt-28 mt-5 ">
+        <button className="flex justify-center items-center gap-2 bg-gray-300 mx-5 px-16 py-3 rounded-xl">
+          <FaGoogle/>
+          <p className="text-lg">Sign in with Google</p>
+        </button>
+        <p className="text-center text-xl py-2">Or</p>
+        <button className="flex justify-center items-center gap-3 bg-gray-300 mx-5 px-16 py-3 rounded-xl">
+          <FaGithub/>
+          <p className="text-lg">Sign in with github</p>
+        </button>
         <div>
-          <p> Debitis amet, iusto voluptatem eligendi inventore, odit animi eum quisquam magni odio dolorum similique iure ipsum dolore fugit. Accusamus molestiae quia sequi voluptas culpa dolorem facere fugiat temporibus placeat omnis. Soluta eum ipsum illum distinctio excepturi sequi blanditiis nihil ipsam quos tenetur.</p>
+          
         </div>
       </div>
     </div>

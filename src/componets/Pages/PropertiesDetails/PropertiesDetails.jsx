@@ -35,7 +35,8 @@ const PropertiesDetails = () => {
     };
   
     return (
-      <div className="max-w-6xl mx-auto p-4 mt-7 bg-gray-100 rounded-lg shadow-lg">
+      <div className="container m-auto max-w-6xl">
+      <div className="mx-auto p-4 mt-7 bg-gray-100 rounded-lg shadow-lg">
         {/* Main Image */}
         <div className="relative">
           <img
@@ -82,15 +83,15 @@ const PropertiesDetails = () => {
           <ul className="flex flex-wrap space-x-4 text-gray-600 text-sm sm:space-x-6 md:space-x-8">
            <div className='flex justify-center items-center gap-1'>
               <LuBath className='text-CoyoteBrown'/>
-              <p>2 Bathrooms</p>
+              <p>{room[1]} Bathrooms</p>
            </div>
            <div className='flex justify-center items-center gap-1'>
               <FaBed className='text-CoyoteBrown'/>
-              <p>2 Bedrooms</p>
+              <p>{room[0]} Bedrooms</p>
            </div>
            <div className='flex justify-center items-center gap-1'>
               <BiShapeSquare className='text-CoyoteBrown'/>
-              <p>480 Sq Ft</p>
+              <p>{area}</p>
            </div>
            <div className='flex justify-center items-center gap-1'>
               <GiHomeGarage className='text-CoyoteBrown'/>
@@ -103,6 +104,37 @@ const PropertiesDetails = () => {
             <FaHeart className="mr-1" /> Add to Favorites
           </button>
         </div>
+        
+      </div>
+      <div className='p-10 mx-auto'>
+         {/* Description */}
+       <p className="mb-4 text-gray-600">{description}</p>
+      </div>
+            {/* Address */}
+      <div className="p-4 bg-gray-200 rounded-lg">
+        <h3 className="md:text-3xl text-lg font-semibold mb-2 border-b-2">Address</h3>
+        <div className="grid grid-cols-2 gap-2 md:text-lg text-sm text-gray-700 mt-5">
+          <p>
+            <span className="font-semibold">Street:</span> {location[0]}
+          </p>
+          <p>
+            <span className="font-semibold">Zip:</span> {location[1]}
+          </p>
+          <p>
+            <span className="font-semibold">State:</span> {location[2]}
+          </p>
+          <p>
+            <span className="font-semibold">Country:</span> {location[3]}
+          </p>
+          <p>
+            <span className="font-semibold">City:</span> {location[4]}
+          </p>
+          <p>
+            <span className="font-semibold">Area:</span> {location[5]}
+          </p>
+        </div>
+      </div>
+
       </div>
     );
   };

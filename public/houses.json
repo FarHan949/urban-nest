@@ -1,129 +1,239 @@
 [
-    {
+  {
       "cover": "https://i.ibb.co.com/NNbfh5V/cover-1.jpg",
-      "images": ["https://i.ibb.co.com/5jSnjB1/f3c6c58757fd468a495d10fbabf3f1d5.jpg","https://i.ibb.co.com/17hvBxC/8475a41f5e4c9a53db5c4d22693fab00.jpg","https://i.ibb.co.com/DgdgHL9/6204c5ea60d2995fc1d240249e7e60f4.jpg", "https://i.ibb.co.com/6WfxGxH/5c34018c02ff6dc97fa958102451d92e.jpg", "https://i.ibb.co.com/myKFzrY/ab292d9b254e967d9196486a665fe514.jpg"],
+      "images": ["https://i.ibb.co.com/5jSnjB1/f3c6c58757fd468a495d10fbabf3f1d5.jpg", 
+      "https://i.ibb.co.com/17hvBxC/8475a41f5e4c9a53db5c4d22693fab00.jpg", 
+      "https://i.ibb.co.com/DgdgHL9/6204c5ea60d2995fc1d240249e7e60f4.jpg", 
+      "https://i.ibb.co.com/6WfxGxH/5c34018c02ff6dc97fa958102451d92e.jpg", 
+      "https://i.ibb.co.com/myKFzrY/ab292d9b254e967d9196486a665fe514.jpg"],
       "estate_title": "Elegant Family Home",
       "id": "E001",
       "segment_name": "Residential",
-      "description": "A spacious and modern family home located in a serene neighborhood.",
+      "description": "This spacious and modern family home is situated in a serene neighborhood, offering the perfect blend of comfort and style. With 4 bedrooms, 2 bathrooms, and a generous 2500 sq ft area, it’s ideal for families seeking both functionality and elegance. The home features a bright and airy living room, a contemporary kitchen, and a private garage. The peaceful surroundings provide a tranquil retreat while being close to amenities. Whether you're hosting gatherings or enjoying quiet evenings, this home caters to all your needs.",
       "price": "$500,000",
       "status": "sale",
       "area": "2500 sq ft",
-      "room": [4,2],
-      "location": "123 Maple Street, Springfield",
+      "room": [4, 2],
+      "location": [
+        "123 Maple Street",
+        "90210",
+        "California",
+        "USA",
+        "Beverly Hills",
+        "Westside"
+      ],
       "facilities": ["living room", "swimming pool", "kitchen"]
-    },
-    {
+  },
+  {
       "cover": "https://i.ibb.co.com/0GQmxCx/cover-2.jpg",
-      "images": ["https://i.ibb.co.com/RhkX8T6/c0d802e62a7ecd5ab291641815f6cca6.jpg","https://i.ibb.co.com/HP1m3wx/9680c555e579ea29fa733c6ae40094cd.jpg","https://i.ibb.co.com/x2HnKw3/89fb23ef5bcd19e1a82a0c6f1f149fba.jpg", "https://i.ibb.co.com/0yxqW4K/67be7d67f4c32e6dcd2587d011ec9e31.jpg", "https://i.ibb.co.com/pXVM7xF/2d662ea1c1312faca9c93c3fdaef3793.jpg"],
+      "images": ["https://i.ibb.co.com/RhkX8T6/c0d802e62a7ecd5ab291641815f6cca6.jpg", 
+      "https://i.ibb.co.com/HP1m3wx/9680c555e579ea29fa733c6ae40094cd.jpg", 
+      "https://i.ibb.co.com/x2HnKw3/89fb23ef5bcd19e1a82a0c6f1f149fba.jpg", 
+      "https://i.ibb.co.com/0yxqW4K/67be7d67f4c32e6dcd2587d011ec9e31.jpg", 
+      "https://i.ibb.co.com/pXVM7xF/2d662ea1c1312faca9c93c3fdaef3793.jpg"],
       "estate_title": "Luxury Apartment",
       "id": "E002",
       "segment_name": "Residential",
-      "description": "A high-end apartment with stunning city views and modern amenities.",
+      "description": "Experience the height of sophistication with this luxury apartment featuring stunning city views. With 5 spacious rooms and 2 modern bathrooms spread across 1800 sq ft, this high-end property is perfect for those who appreciate elegance. The apartment offers top-notch amenities, including a fully-equipped kitchen, a living room with panoramic windows, and access to a gym. Located in the heart of the city, it's close to entertainment, dining, and shopping destinations, making it ideal for urban professionals.",
       "price": "$750,000",
       "status": "sale",
       "area": "1800 sq ft",
-      "room": [5,2],
-      "location": "456 Highrise Avenue, Metropolis",
+      "room": [5, 2],
+      "location": [
+        "456 Elm Avenue",
+        "10001",
+        "New York",
+        "USA",
+        "New York City",
+        "Manhattan"
+      ],
       "facilities": ["living room", "kitchen", "gym"]
-    },
-    {
+  },
+  {
       "cover": "https://i.ibb.co.com/yqpC3wX/cover-3.jpg",
-      "images": ["https://i.ibb.co.com/nkJ004d/a193d9ca01454eebd517b75d9b7e7149.jpg","https://i.ibb.co.com/7jcFYPL/a55a6ebe587fb4068a8aacd08143c9f7.jpg","https://i.ibb.co.com/B6QmNxL/104f69c2af62b016be8981dd2b9a97a9.jpg", "https://i.ibb.co.com/CtFF4wC/75ff5af2a0cad38ebeb4f8c117d13bd1.jpg", "https://i.ibb.co.com/jJZqcCX/31fdb3a753a2fd725e17f7f67e059389.jpg"],
+      "images": ["https://i.ibb.co.com/nkJ004d/a193d9ca01454eebd517b75d9b7e7149.jpg", 
+      "https://i.ibb.co.com/7jcFYPL/a55a6ebe587fb4068a8aacd08143c9f7.jpg", 
+      "https://i.ibb.co.com/B6QmNxL/104f69c2af62b016be8981dd2b9a97a9.jpg", 
+      "https://i.ibb.co.com/CtFF4wC/75ff5af2a0cad38ebeb4f8c117d13bd1.jpg", 
+      "https://i.ibb.co.com/jJZqcCX/31fdb3a753a2fd725e17f7f67e059389.jpg"],
       "estate_title": "Cozy Suburban House",
       "id": "E003",
       "segment_name": "Residential",
-      "description": "A comfortable home with a large backyard, perfect for families.",
+      "description": "This charming suburban house offers a warm and inviting atmosphere, perfect for families seeking a peaceful lifestyle. With 7 spacious rooms, 3 bathrooms, and a total area of 2200 sq ft, this home has ample space for everyone. It features a large backyard for outdoor activities and a comfortable living room for relaxation. Conveniently located near schools, parks, and shopping centers, it combines suburban tranquility with urban convenience.",
       "price": "$400,000",
       "status": "sale",
-      "room": [7,1],
+      "room": [7, 3],
       "area": "2200 sq ft",
-      "location": "789 Pine Drive, Pleasantville",
+      "location": [
+        "789 Oak Drive",
+        "60614",
+        "Illinois",
+        "USA",
+        "Chicago",
+        "Lincoln Park"
+      ],
       "facilities": ["living room", "kitchen", "garden"]
-    },
-    {
-      "cover": "https://i.ibb.co.com/nn5dmBM/cover-4.jpg",
-      "images": ["https://i.ibb.co.com/jZk8gY9/e6f041593bd5180344102e0f18daf5d2.jpg","https://i.ibb.co.com/zm907ML/e3bba31812f567cb9d5672a35e295092.jpg","https://i.ibb.co.com/5FL9qsh/ac4989c9627e483abc0933e383f6dbbf.jpg", "https://i.ibb.co.com/NCcQ1bM/2440813ce0acd3a44a62cc38abecbbdd.jpg", "https://i.ibb.co.com/kJ86wj6/0bf4f8967cb855631aa0c4a8d92026ab.jpg"],
-      "estate_title": "Beachfront Villa",
-      "id": "E004",
-      "segment_name": "Residential",
-      "description": "A luxurious villa with direct access to the beach and scenic views.",
-      "price": "$1,200,000",
-      "status": "sale",
-      "room": [4,2],
-      "area": "3000 sq ft",
-      "location": "101 Ocean View Lane, Seaside",
-      "facilities": ["living room", "swimming pool", "kitchen"]
-    },
-    {
-      "cover": "https://i.ibb.co.com/cFsKypV/cover-5.jpg",
-      "images": ["https://i.ibb.co.com/stw6p5P/d2db7c384cb1882794ad5e06846f5421.jpg","https://i.ibb.co.com/J5JF1yj/cbeae679c108a406386b2390e84e57d9.jpg","https://i.ibb.co.com/H7BZFQh/b6f52358c8f3325a27b7ce558b46feb4.jpg", "https://i.ibb.co.com/fpFwD6m/455a0907ce4865cb7c89b4b0d4a94ded.jpg", "https://i.ibb.co.com/zbtg16P/b0b07ee1bdd49e3759bd4a41d601caf7.jpg"],
-      "estate_title": "Modern Urban Condo",
-      "id": "E005",
-      "segment_name": "Residential",
-      "description": "A chic condo located in the heart of the city, close to amenities.",
-      "price": "$350,000",
-      "status": "sale",
-      "room": [3,1],
-      "area": "1200 sq ft",
-      "location": "202 Downtown Street, Urbania",
-      "facilities": ["living room", "kitchen", "balcony"]
-    },
-    {
-      "cover": "https://i.ibb.co.com/5jywXNZ/cover.jpg",
-      "images": ["https://i.ibb.co.com/25K0N9j/3f0b52416bf02237c5a52e752ae3d6ac.jpg","https://i.ibb.co.com/sgs27dg/9f30acffbc21e3ff79e214669947762a.jpg","https://i.ibb.co.com/CvQQZc8/86a6fb6d030f8816f447eabe02c9fd8b.jpg", "https://i.ibb.co.com/74pV1Dh/597448973816ada7bf3f0c1b8c1e7f44.jpg", "https://i.ibb.co.com/qRFyhB6/d0779ea1c74d3ca3a0f6c586b34e1b2a.jpg"],
-      "estate_title": "Rustic Country Cottage",
-      "id": "E006",
-      "segment_name": "Residential",
-      "description": "A quaint cottage surrounded by nature, ideal for a peaceful lifestyle.",
-      "price": "$275,000",
-      "status": "sale",
-      "room": [5,3],
-      "area": "1500 sq ft",
-      "location": "345 Countryside Road, Harmony",
-      "facilities": ["living room", "kitchen", "fireplace"]
-    },
-    {
-      "cover": "https://i.ibb.co.com/6ssY5bR/cover-7.jpg",
-      "images": ["https://i.ibb.co.com/f14p8JT/274661-UCR-IMG-06-0000.jpg","https://i.ibb.co.com/X7JbGD3/274661-UCR-IMG-05-0000.jpg","https://i.ibb.co.com/WBCD2Qm/274661-UCR-IMG-04-0000.jpg", "https://i.ibb.co.com/XZj6WDK/274661-UCR-IMG-03-0000.jpg", "https://i.ibb.co.com/MBc5yDz/274661-UCR-IMG-02-0000.jpg"],
-      "estate_title": "Suburban Rental House",
-      "id": "E007",
-      "segment_name": "Residential",
-      "description": "A well-maintained rental property in a friendly neighborhood.",
-      "price": "$1,800/month",
-      "status": "rent",
-      "room": [4,4],
-      "area": "2000 sq ft",
-      "location": "678 Elm Street, Suburbia",
-      "facilities": ["living room", "kitchen", "garage"]
-    },
-    {
-      "cover": "https://i.ibb.co.com/d0MNVs9/cover-8.jpg",
-      "images": ["https://i.ibb.co.com/pRgnBZk/3728-000230445-IMG-06-0000.jpg","https://i.ibb.co.com/3TShtdq/3728-000230445-IMG-05-0000.jpg","https://i.ibb.co.com/DgcDXZF/3728-000230445-IMG-04-0000.jpg", "https://i.ibb.co.com/85Fmmxx/3728-000230445-IMG-03-0000.jpg", "https://i.ibb.co.com/Qk1VN7H/3728-000230445-IMG-02-0000.jpg"],
-      "estate_title": "Downtown Loft",
-      "id": "E008",
-      "segment_name": "Residential",
-      "description": "A trendy loft with an open floor plan and industrial design elements.",
-      "price": "$2,500/month",
-      "status": "rent",
-      "room": [3,2],
-      "area": "1400 sq ft",
-      "location": "303 Central Avenue, Cityscape",
-      "facilities": ["living room", "kitchen", "rooftop access"]
-    },
-    {
-      "cover": "https://i.ibb.co.com/CJ5m2nW/cover-9.jpg",
-      "images": ["https://i.ibb.co.com/K9wMk01/16023-1109533-IMG-13-0000.jpg","https://i.ibb.co.com/gvSy5Qc/16023-1109533-IMG-05-0001.jpg","https://i.ibb.co.com/HTn85SR/16023-1109533-IMG-04-0000.jpg", "https://i.ibb.co.com/m5cKZHF/16023-1109533-IMG-03-0000.jpg", "https://i.ibb.co.com/dGGzbqH/16023-1109533-IMG-02-0000.jpg"],
-      "estate_title": "Luxury Penthouse",
-      "id": "E009",
-      "segment_name": "Residential",
-      "description": "An exclusive penthouse with panoramic views and top-notch facilities.",
-      "price": "$1,500,000",
-      "status": "sale",
-      "room": [5,4],
-      "area": "3200 sq ft",
-      "location": "909 Skyline Drive, Skyview",
-      "facilities": ["living room", "kitchen", "private pool"]
-    }
-  ]
-  
+  },
+  {
+    "cover": "https://i.ibb.co.com/nn5dmBM/cover-4.jpg",
+    "images": [
+      "https://i.ibb.co.com/jZk8gY9/e6f041593bd5180344102e0f18daf5d2.jpg",
+      "https://i.ibb.co.com/zm907ML/e3bba31812f567cb9d5672a35e295092.jpg",
+      "https://i.ibb.co.com/5FL9qsh/ac4989c9627e483abc0933e383f6dbbf.jpg",
+      "https://i.ibb.co.com/NCcQ1bM/2440813ce0acd3a44a62cc38abecbbdd.jpg",
+      "https://i.ibb.co.com/kJ86wj6/0bf4f8967cb855631aa0c4a8d92026ab.jpg"
+    ],
+    "estate_title": "Beachfront Villa",
+    "id": "E004",
+    "segment_name": "Residential",
+    "description": "Discover unparalleled luxury in this exquisite beachfront villa, offering direct access to the ocean and breathtaking scenic views. This stunning property is designed for those who crave elegance and relaxation, featuring spacious living areas, modern finishes, and ample natural light. The villa includes a private swimming pool, a fully-equipped kitchen, and outdoor spaces perfect for entertaining guests or enjoying peaceful moments by the sea. Located in a serene coastal neighborhood, it is the ideal retreat for families or individuals looking for a premium lifestyle. The villa's pristine surroundings provide a tranquil escape while still being conveniently close to essential amenities. Experience the perfect combination of opulence and comfort in this exclusive residence.",
+    "price": "$1,200,000",
+    "status": "sale",
+    "room": [4, 2],
+    "area": "3000 sq ft",
+    "location": [
+      "321 Birch Lane",
+      "30303",
+      "Georgia",
+      "USA",
+      "Atlanta",
+      "Downtown"
+    ],
+    "facilities": ["living room", "swimming pool", "kitchen"]
+  },
+  {
+    "cover": "https://i.ibb.co.com/cFsKypV/cover-5.jpg",
+    "images": [
+      "https://i.ibb.co.com/stw6p5P/d2db7c384cb1882794ad5e06846f5421.jpg",
+      "https://i.ibb.co.com/J5JF1yj/cbeae679c108a406386b2390e84e57d9.jpg",
+      "https://i.ibb.co.com/H7BZFQh/b6f52358c8f3325a27b7ce558b46feb4.jpg",
+      "https://i.ibb.co.com/fpFwD6m/455a0907ce4865cb7c89b4b0d4a94ded.jpg",
+      "https://i.ibb.co.com/zbtg16P/b0b07ee1bdd49e3759bd4a41d601caf7.jpg"
+    ],
+    "estate_title": "Modern Urban Condo",
+    "id": "E005",
+    "segment_name": "Residential",
+    "description": "This chic urban condo is the epitome of modern living, located right in the heart of the city. Designed for convenience and style, the property features an open floor plan that maximizes space and light. With three spacious bedrooms and a contemporary kitchen, it’s perfect for individuals or small families seeking a vibrant lifestyle. The condo boasts a balcony with stunning city views and is just steps away from shopping centers, restaurants, and public transport. Enjoy the perfect balance of privacy and accessibility while living in this sophisticated residence. Whether you're entertaining guests or relaxing after a busy day, this condo offers the perfect setting for both.",
+    "price": "$350,000",
+    "status": "sale",
+    "room": [3, 1],
+    "area": "1200 sq ft",
+    "location": [
+  "654 Cedar Road",
+  "98101",
+  "Washington",
+  "USA",
+  "Seattle",
+  "Capitol Hill"
+],
+    "facilities": ["living room", "kitchen", "balcony"]
+  },
+  {
+    "cover": "https://i.ibb.co.com/5jywXNZ/cover.jpg",
+    "images": [
+      "https://i.ibb.co.com/25K0N9j/3f0b52416bf02237c5a52e752ae3d6ac.jpg",
+      "https://i.ibb.co.com/sgs27dg/9f30acffbc21e3ff79e214669947762a.jpg",
+      "https://i.ibb.co.com/CvQQZc8/86a6fb6d030f8816f447eabe02c9fd8b.jpg",
+      "https://i.ibb.co.com/74pV1Dh/597448973816ada7bf3f0c1b8c1e7f44.jpg",
+      "https://i.ibb.co.com/qRFyhB6/d0779ea1c74d3ca3a0f6c586b34e1b2a.jpg"
+    ],
+    "estate_title": "Rustic Country Cottage",
+    "id": "E006",
+    "segment_name": "Residential",
+    "description": "Embrace the charm of countryside living in this picturesque rustic cottage. Nestled amidst lush greenery, this cozy home offers the perfect escape from the hustle and bustle of city life. The cottage features a warm, inviting living room, a fully functional kitchen, and a classic fireplace, adding a touch of timeless elegance. Its spacious layout makes it ideal for families or individuals who enjoy nature and tranquility. Surrounded by scenic views and fresh air, this property is perfect for outdoor enthusiasts or those seeking a slower pace of life. Its convenient location ensures easy access to local amenities while preserving its serene environment.",
+    "price": "$275,000",
+    "status": "sale",
+    "room": [5, 3],
+    "area": "1500 sq ft",
+    "location": [
+      "987 Pine Boulevard",
+      "73301",
+      "Texas",
+      "USA",
+      "Austin",
+      "Downtown"
+    ],
+    "facilities": ["living room", "kitchen", "fireplace"]
+  },
+  {
+    "cover": "https://i.ibb.co.com/6ssY5bR/cover-7.jpg",
+    "images": [
+      "https://i.ibb.co.com/f14p8JT/274661-UCR-IMG-06-0000.jpg",
+      "https://i.ibb.co.com/X7JbGD3/274661-UCR-IMG-05-0000.jpg",
+      "https://i.ibb.co.com/WBCD2Qm/274661-UCR-IMG-04-0000.jpg",
+      "https://i.ibb.co.com/XZj6WDK/274661-UCR-IMG-03-0000.jpg",
+      "https://i.ibb.co.com/MBc5yDz/274661-UCR-IMG-02-0000.jpg"
+    ],
+    "estate_title": "Suburban Rental House",
+    "id": "E007",
+    "segment_name": "Residential",
+    "description": "This well-maintained rental property is located in a friendly suburban neighborhood, perfect for families. The house features four spacious bedrooms, each designed for comfort and functionality. The kitchen is equipped with modern appliances, and the living room provides a cozy atmosphere for relaxation or entertainment. A garage and a private backyard add to its appeal, offering both convenience and outdoor space. The property is close to schools, parks, and shopping centers, making it a practical choice for long-term renters. Experience a peaceful lifestyle while enjoying all the amenities you need for comfortable living.",
+    "price": "$1,800/month",
+    "status": "rent",
+    "room": [4, 4],
+    "area": "2000 sq ft",
+    "location":  [
+      "159 Spruce Court",
+      "33139",
+      "Florida",
+      "USA",
+      "Miami Beach",
+      "South Beach"
+    ],
+    "facilities": ["living room", "kitchen", "garage"]
+  },
+  {
+    "cover": "https://i.ibb.co.com/d0MNVs9/cover-8.jpg",
+    "images": [
+      "https://i.ibb.co.com/pRgnBZk/3728-000230445-IMG-06-0000.jpg",
+      "https://i.ibb.co.com/3TShtdq/3728-000230445-IMG-05-0000.jpg",
+      "https://i.ibb.co.com/DgcDXZF/3728-000230445-IMG-04-0000.jpg",
+      "https://i.ibb.co.com/85Fmmxx/3728-000230445-IMG-03-0000.jpg",
+      "https://i.ibb.co.com/Qk1VN7H/3728-000230445-IMG-02-0000.jpg"
+    ],
+    "estate_title": "Downtown Loft",
+    "id": "E008",
+    "segment_name": "Residential",
+    "description": "This trendy downtown loft is designed with an open floor plan that seamlessly blends industrial elements with modern living. The property offers spacious interiors, high ceilings, and large windows that flood the space with natural light. It is ideal for individuals or couples seeking a stylish and functional urban retreat. The location is unbeatable, with proximity to local restaurants, shopping centers, and entertainment venues. This loft also features rooftop access, providing a perfect spot to relax and enjoy city views. With amenities like a fully-equipped kitchen and a comfortable living room, this property redefines urban living and offers convenience at its best. Don’t miss out on this rental opportunity in the heart of Cityscape.",
+    "price": "$2,500/month",
+    "status": "rent",
+    "room": [3, 2],
+    "area": "1400 sq ft",
+    "location": [
+      "753 Willow Way",
+      "94103",
+      "California",
+      "USA",
+      "San Francisco",
+      "SoMa"
+    ],
+    "facilities": ["living room", "kitchen", "rooftop access"]
+  },
+  {
+    "cover": "https://i.ibb.co.com/CJ5m2nW/cover-9.jpg",
+    "images": [
+      "https://i.ibb.co.com/K9wMk01/16023-1109533-IMG-13-0000.jpg",
+      "https://i.ibb.co.com/gvSy5Qc/16023-1109533-IMG-05-0001.jpg",
+      "https://i.ibb.co.com/HTn85SR/16023-1109533-IMG-04-0000.jpg",
+      "https://i.ibb.co.com/m5cKZHF/16023-1109533-IMG-03-0000.jpg",
+      "https://i.ibb.co.com/dGGzbqH/16023-1109533-IMG-02-0000.jpg"
+    ],
+    "estate_title": "Luxury Penthouse",
+    "id": "E009",
+    "segment_name": "Residential",
+    "description": "Experience the pinnacle of urban luxury in this exclusive penthouse, featuring breathtaking panoramic views and premium amenities. Spanning 3200 sq ft, this residence boasts a sophisticated design with spacious living areas, a state-of-the-art kitchen, and beautifully crafted interiors. The private pool is an oasis of tranquility, perfect for relaxation or hosting guests. Located in the prestigious Skyline Drive neighborhood, this property offers privacy and elegance in equal measure. With close proximity to high-end dining, shopping, and cultural attractions, it provides an unparalleled living experience. Whether you're looking for a primary residence or a luxurious getaway, this penthouse is a perfect choice for those who value exclusivity and comfort. Don’t miss this rare opportunity to own a piece of the sky.",
+    "price": "$1,500,000",
+    "status": "sale",
+    "room": [5, 4],
+    "area": "3200 sq ft",
+    "location": [
+      "852 Cypress Avenue",
+      "85001",
+      "Arizona",
+      "USA",
+      "Phoenix",
+      "Central City"
+    ],
+    "facilities": ["living room", "kitchen", "private pool"]
+  }
+]
